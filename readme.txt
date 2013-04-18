@@ -18,8 +18,8 @@ This plugin gives you an easy way to customize your WordPress administrator dash
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Within Settings, click on Dashboard Manager. This is where you'll configure your dashboard and enter content for your custom admin widget.
 
 == Frequently asked questions ==
 
