@@ -111,7 +111,7 @@ function abd_dwm_settings_page() {
                                 <?php $all_roles = $wp_roles->roles;
                                 foreach($all_roles as $role_key => $role) {	
                                     $active_roles = get_option('abd_dwm_user_roles');
-                                    $checked = $active_roles[$role_key] == 'true' ? 'checked="checked"' : '';
+                                    $checked = isset($active_roles[$role_key]) == 'true' ? 'checked="checked"' : '';
                                     ?>                           				
                                     <input type="checkbox" name="roles[<?php echo $role_key; ?>]" value="true" <?php echo $checked; ?> />
                                     <strong><?php echo $role['name'];?></strong>&nbsp;&nbsp;&nbsp;&nbsp;		
@@ -128,7 +128,7 @@ function abd_dwm_settings_page() {
                                 <?php 
                                 foreach($dashboard_widgets as $widget_key => $widget) {
                                     $deactivated_widgets = get_option('abd_dwm_show_widgets');	
-                                    $checked = $deactivated_widgets[$widget_key] == 'true' ? 'checked="checked"' : '';
+                                    $checked = isset($deactivated_widgets[$widget_key]) == 'true' ? 'checked="checked"' : '';
                                     ?>
                                     <div class="abd_dwm_widget_column"> 
                                     	<input type="checkbox" name="widgets[<?php echo $widget_key; ?>]" value="true" <?php echo $checked; ?> />           		               

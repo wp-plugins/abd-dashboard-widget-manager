@@ -1,20 +1,24 @@
 === ABD Dashboard Widget Manager ===
 Contributors: abdwebdesign
+Donate link: http://aaronbday.com
 Tags: admin dashboard,custom dashboard,widget manager,admin widgets,custom widget,admin dashboard,dashboard,administrator dashboard,custom dashboard,abd
 Requires at least: 3.3
-Tested up to: 3.5.1
-Stable tag: 1.01
+Tested up to: 3.9.2
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin gives you an easy way to customize your WordPress administrator dashboard. Simply select which admin widgets you'd like to show and for which user roles. You also get the option to add a new admin widget: just give it a title and enter your content into the WYSIWYG editor.
+Customize your WordPress administrator dashboard. You can choose which admin widgets to display, the user roles, and add your own dashboard content.
 
 == Description ==
 
 Take control of your admin dashboard!
 
-This plugin gives you an easy way to customize your WordPress administrator dashboard. Simply select which admin widgets you'd like to show and for which user roles. You also get the option to add a new admin widget: just give it a title and enter your content into the WYSIWYG editor.
-
+This plugin gives you an easy way to customize your WordPress administrator dashboard. 
+1. Select which user roles you'd like to customize.
+1. select which admin dashboard widgets you'd like to have displayed. 1. You also get the option to show a new 'custom widget' which you can then add your desired content. 
+This custom widget is a great way to add documentation for your clients or leave notes for yourself right there on the admin dashboard when you or your users logs in. We use it for almost all of our clients so that they have documentation they need to manage their WordPress sites. Go WordPress!
+	
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
@@ -33,16 +37,18 @@ You can't. It's quite possible that a future version will include this.
 
 = Can I display a different custom widget for different roles? =
 
-No. This only works for one set of user roles. The user roles that you select will see the dashboard that you've specified, including custom widget. All other user roles will go with the WordPress default.
+No. This only works for one set of user roles. The user roles that you select will see the dashboard that you've specified, including custom widget. All other user roles will see the WordPress default set of widgets.
 
 == Screenshots ==
 
-1. http://www.aaronbday.com/plugins/dashboard.png
-2. http://www.aaronbday.com/plugins/dashboard_settings.png
+1. /assets/dashboard.png
+2. /assets/dashboard_settings.png
 
 == Changelog ==
 
-None.
+= 1.1 = 
+* Removed screen output that showed when WordPress debug was turned on. 
+* Improved documentation and new screenshots.
 
 == Upgrade notice ==
 
