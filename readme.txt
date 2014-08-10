@@ -41,8 +41,8 @@ No. This only works for one set of user roles. The user roles that you select wi
 
 == Screenshots ==
 
-1. /assets/dashboard.png
-2. /assets/dashboard_settings.png
+1. This is the WordPress admin dashboard after we've installed the plugin and configured to just show the  right now widget and our custom widget with documentation for our dear client.
+2. This is the settings screen for the ABD Dashboard Widget Manager.
 
 == Changelog ==
 
