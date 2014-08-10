@@ -15,10 +15,13 @@ Customize your WordPress administrator dashboard. You can choose which admin wid
 Take control of your admin dashboard!
 
 This plugin gives you an easy way to customize your WordPress administrator dashboard. 
+
 1. Select which user roles you'd like to customize.
-1. select which admin dashboard widgets you'd like to have displayed. 1. You also get the option to show a new 'custom widget' which you can then add your desired content. 
-This custom widget is a great way to add documentation for your clients or leave notes for yourself right there on the admin dashboard when you or your users logs in. We use it for almost all of our clients so that they have documentation they need to manage their WordPress sites. Go WordPress!
-	
+1. select which admin dashboard widgets you'd like to have displayed. 
+1. You also get the option to show a new 'custom widget' which you can then add your desired content. 
+
+This custom widget is a great way to add documentation for your clients or leave notes for yourself right there on the admin dashboard when you or your users logs in. We use it for almost all of our clients so that they have documentation they need to manage their WordPress sites. 
+
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
